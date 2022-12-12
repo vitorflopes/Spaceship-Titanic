@@ -1,0 +1,93 @@
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=7, n_jobs=-1, random_state=1)
+
+Média:  0.7999313045177583
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=2, n_jobs=-1, random_state=1)
+
+Média:  0.7994594766930468
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=5, n_jobs=-1, random_state=1)
+
+Média:  0.7995056879239917
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=7, n_jobs=-1, random_state=1)
+
+Média:  0.7997242373876373
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=2, n_jobs=-1, random_state=1)
+
+Média:  0.7999656919626603
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo", "Deck_num"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=2, n_jobs=-1, random_state=1)
+
+Média:  0.802553985429824
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo", "Deck_num"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=3, n_jobs=-1, random_state=1)
+
+Média:  0.8027956821979122
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo", "Deck_num", "Quarto_num"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=3, n_jobs=-1, random_state=1)
+
+Média:  0.8035433679240617
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo", "Deck_num", "Quarto_num"]
+modelo = RandomForestClassifier(n_estimators=1000, min_samples_leaf=4, n_jobs=-1, random_state=1)
+
+Média:  0.8043141175767131
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo", "Deck_num", "Quarto_num"]
+modelo = KNeighborsClassifier(n_neighbors=5)
+
+Média:  0.7574943705993816
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo", "Deck_num", "Quarto_num"]
+modelo = RandomForestClassifier(n_estimators=500, min_samples_leaf=4, n_jobs=-1, random_state=1)
+
+Média:  0.8044291116382184
+
+-------------------------------------------------------------------------------------------------
+
+vars = ["Cryo_num", "Planet_num", "Side_num", "Destination_num", "Age", 
+        "Vip_num", "RoomService", "FoodCourt", "ShoppingMall", "Spa", "VRDeck", "Id_num", "Quant_grupo", "Deck_num", "Quarto_num"]
+modelo = RandomForestClassifier(n_estimators=400, min_samples_leaf=4, n_jobs=-1, random_state=1)
+
+Média:  0.8046591474057668
